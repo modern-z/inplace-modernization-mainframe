@@ -1,9 +1,11 @@
 ---
 import { Icon } from "astro-icon";
+// import mdiHome from '@iconify-icons/mdi/home';
 import ContentSection from "~/components/content-section.astro";
 ---
 
 <ContentSection title="Do what You want, using Mainframe" id="intro">
+  <script src="https://code.iconify.design/3/3.0.0/iconify.min.js"></script>
   <!-- <Icon slot="eyebrow" name="logomark" class="h-32" /> -->
   <!-- <Fragment slot="lead">
     Astro is a new kind of site builder for the
@@ -11,13 +13,16 @@ import ContentSection from "~/components/content-section.astro";
     <span class="text-primary">Lightning-fast</span>
     performance meets <span class="text-primary">powerful</span> developer experience.
   </Fragment> -->
-  <div class="grid grid-cols-5 gap-1 sm:grid-cols-2">
+  <div class="grid grid-cols-2 gap-1 sm:grid-cols-3">
 
     <a
       href="https://astro.new/"
       class="flex items-center justify-center gap-3 px-6 py-4 border-2 border-current"
     >
-      <Icon pack="mdi" name="rocket" class="h-8" />
+      <!-- <Icon pack="carbon" name="ibm-z-cloud-mod-stack" class="h-8" /> -->
+      <!-- <Icon icon="carbon:ibm-open-enterprise-languages" color="#fbf" /> -->
+      
+      <span class="iconify-inline" data-icon="carbon:ibm-open-enterprise-languages" style="color: #069;" data-width="40" data-height="40" data-flip="vertical"></span>
       <span>Choose any <br\>
         Modern Languange</span>
     </a>
@@ -25,15 +30,15 @@ import ContentSection from "~/components/content-section.astro";
       href="https://www.ibm.com/in-en/it-infrastructure/z/capabilities/hybrid-cloud"
       class="flex items-center justify-center gap-3 px-6 py-4 border-2 border-current"
     >
-      <Icon pack="mdi" name="read" class="h-8" />
-      <span>Hybrid cloud <br/>with IBM Z</span>
+      <Icon pack="vscode-icons" name="file-type-apib2" class="h-8" />
+      <span>Get API access on IBM Z®</span>
     </a>
     <a
       href="https://www.ibm.com/in-en/it-infrastructure/z/capabilities/hybrid-cloud"
       class="flex items-center justify-center gap-3 px-6 py-4 border-2 border-current"
     >
-      <Icon pack="mdi" name="read" class="h-8" />
-      <span>Hybrid cloud with IBM Z</span>
+      <Icon pack="carbon" name="ibm-cloud" class="h-8" />
+      <span>Hybrid cloud with IBM Z®</span>
     </a>
   </div>
 </ContentSection>
