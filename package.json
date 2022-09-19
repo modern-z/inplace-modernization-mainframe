@@ -24,7 +24,14 @@
   },
   "dependencies": {
     "@iconify-icons/mdi": "^1.2.31",
-    "micromodal": "^0.4.10"
+    "astro-blog": "^0.0.7",
+    "astro-footers": "^0.0.7",
+    "astro-image": "^0.0.7",
+    "astro-sections": "^0.0.7",
+    "astro-theme": "^0.0.7",
+    "astro-utils": "^0.0.7",
+    "micromodal": "^0.4.10",
+    "tailwindcss": "^3.1.8"
   },
   "description": "An Astro + Tailwind CSS starter kit for landing pages.",
   "main": "index.js",
